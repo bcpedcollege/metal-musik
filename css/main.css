@@ -1,0 +1,92 @@
+body{
+	color: black;
+	font-family: Gill Sans Extrabold;, sans-serif;
+	padding: 0;
+	margin: 0;
+	background: #595959; /* Для старых браузров */
+    background: linear-gradient(to bottom, #595959, #737373);
+}
+.clearfix:after{
+	content: '';
+	display: table;
+	width: 100%;
+	clear: both;
+
+}
+div{
+	box-sizing: border-box;
+}
+header{
+	background: url(../img/metal.jpg) no-repeat center top / cover;
+	height: 700px;
+}
+.container{
+	width: 1500px;
+	margin: left auto;
+}
+.logo{
+margin-top: 5px;
+width: 250px;
+float: left;
+position: absolute;
+top: -7px;
+}
+nav{
+	float: right;
+	margin-top: 10px;
+
+}
+.menu{
+	padding: 0;
+	margin: 0;
+	display: block;
+}
+.menu li{
+	float: left;
+	display: block;
+	margin-right: 41px;
+
+}
+.menu li a{
+	color: #000;
+	text-decoration: none;
+	text-transform: uppercase;
+	font-size: 17px;
+}
+.titles__first{
+	font-size: 50px;
+	color: #000;
+	text-transform: uppercase;
+	text-align: center;
+	margin-top: 180px;
+}
+.title{
+	padding-top: 25px;
+}
+.title h2{
+font-size: 40px;
+font-weight: bold;
+text-align: center;
+text-transform: uppercase;
+margin: 45px;
+text-shadow: 1px 1px 2px white;
+}
+.title h3{
+	margin: 30px;
+}
+.title p{
+color: #cc6600;
+text-align: center;
+font-size: 25px;
+margin-top: 0;
+line-height: 0.5em;
+text-shadow: 1px 1px 2px black;
+}
+
+  .lefting {
+    float:left;
+    margin: 5px 25px 10px 20px;
+	border: 4px double black;
+    background: #4d2600;
+    padding: 10px; 
+   }
